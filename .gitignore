@@ -104,3 +104,6 @@ venv.bak/
 .mypy_cache/
 
 delf/delf/python/examples/data/
+delf/delf/python/examples/images/InLoc
+*.tgz
+delf/delf/python/examples/images/resized
