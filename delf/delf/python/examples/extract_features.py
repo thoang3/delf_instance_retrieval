@@ -29,11 +29,17 @@ import time
 
 import tensorflow as tf
 
+# +
 from google.protobuf import text_format
 from tensorflow.python.platform import app
+sys.path.append('/home/tung/playground/delf_instance_retrieval/delf/delf/python/')
+sys.path.append('/home/tung/playground/delf_instance_retrieval/delf/delf/')
+
+
 from delf import delf_config_pb2
 from delf import feature_io
 from delf import extractor
+# -
 
 cmd_args = None
 
